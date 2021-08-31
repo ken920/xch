@@ -1,2 +1,4 @@
+
+rm -rf /mnt/ramdisk
 mkdir /mnt/ramdisk
 mount -t tmpfs -o size=1g tmpfs /mnt/ramdisk
