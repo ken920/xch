@@ -1,6 +1,6 @@
 umount /mnt/ramdisk
 rm -rf /mnt/ramdisk
-if [[ "$1" -eq "r" ]] ; then
+if [[ "$1" == "r" ]] ; then
     exit 1
 fi
 mkdir /mnt/ramdisk
