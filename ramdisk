@@ -1,5 +1,8 @@
 umount /mnt/ramdisk
 rm -rf /mnt/ramdisk
+if [[ "$1" -eq "r" ]] ; then
+    exit 1
+fi
 mkdir /mnt/ramdisk
 if [[ $# -eq 0 ]] ; then
 #    mount -t tmpfs -o size=0g tmpfs /mnt/ramdisk
