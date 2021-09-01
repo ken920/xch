@@ -1,2 +1,4 @@
 yum install epel-release -y
 yum install libsodium -y
+#yum install ntfs-3g -y
+#yum install fuse -y
